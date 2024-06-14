@@ -7,7 +7,7 @@ import { Navbar } from "flowbite-react";
 import { Link } from "react-router-dom";
 function Nav() {
   return (
-    <div>
+    <div className="">
       <Navbar>
         <Link to="/">
           <Navbar.Brand>
@@ -23,7 +23,7 @@ function Nav() {
         </Link>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link active>
+          <Navbar.Link>
             <Link to="/">Home</Link>
           </Navbar.Link>
           <Navbar.Link>

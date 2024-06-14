@@ -1,4 +1,13 @@
+import Nav from "../../components/Navigation/Nav";
+import SubNav from "../../components/SubNavigation/SubNav";
+
 function Collection() {
-  return <div>Collection</div>;
+  return (
+    <>
+      <SubNav />
+      <Nav />
+      <div className="container">Collection</div>
+    </>
+  );
 }
 export default Collection;

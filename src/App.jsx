@@ -7,6 +7,7 @@ import Page from "./Pages/Page/Pages";
 import Shop from "./Pages/Shop/Shop";
 import SignUp from "./Pages/SignUp/SignUp";
 import { Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <>
